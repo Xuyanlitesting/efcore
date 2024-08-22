@@ -24,4 +24,16 @@ public interface IDesignTimeDbContextFactory<out TContext>
     /// <param name="args">Arguments provided by the design-time service.</param>
     /// <returns>An instance of <typeparamref name="TContext" />.</returns>
     TContext CreateDbContext(string[] args);
+
+
+
+
+
+
+
+
+
+
+
+    
 }

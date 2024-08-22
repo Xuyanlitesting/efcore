@@ -29,9 +29,11 @@ public sealed class DesignTimeProviderServicesAttribute : Attribute
     /// </param>
     public DesignTimeProviderServicesAttribute(string typeName)
     {
-        Check.NotEmpty(typeName, nameof(typeName));
+       
+       
 
-        TypeName = typeName;
+
+       
     }
 
     /// <summary>

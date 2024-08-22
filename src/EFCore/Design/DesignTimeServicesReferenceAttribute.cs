@@ -43,10 +43,11 @@ public sealed class DesignTimeServicesReferenceAttribute : Attribute
     /// </param>
     public DesignTimeServicesReferenceAttribute(string typeName, string? forProvider)
     {
-        Check.NotEmpty(typeName, nameof(typeName));
+       
 
-        TypeName = typeName;
-        ForProvider = forProvider;
+
+
+       
     }
 
     /// <summary>

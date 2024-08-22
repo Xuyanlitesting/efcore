@@ -71,11 +71,6 @@ public class EntityFrameworkDesignServicesBuilder : EntityFrameworkServicesBuild
     /// <returns>This builder, such that further calls can be chained.</returns>
     public override EntityFrameworkServicesBuilder TryAddCoreServices()
     {
-        TryAdd<ICSharpRuntimeAnnotationCodeGenerator, CSharpRuntimeAnnotationCodeGenerator>();
-
-        ServiceCollectionMap.GetInfrastructure()
-            .AddDependencySingleton<CSharpRuntimeAnnotationCodeGeneratorDependencies>();
-
-        return this;
+        
     }
 }
